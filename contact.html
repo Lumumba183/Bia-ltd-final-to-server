@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us | BIA — Business Investment Advisory</title>
+<meta name="description" content="Contact BIA Limited — infrastructure advisory, Nairobi, Kenya. info@bia-advisory.com | +254 700 000000.">
+<link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="header-inner">
+    <a href="/" class="brand">
+      <img src="/assets/img/bia-logo.png" alt="BIA — Business Investment Advisory logo">
+      <span class="brand-name">BIA Limited<span>Business Investment Advisory</span></span>
+    </a>
+    <nav class="nav">
+      <a href="/" class="">Home</a>
+      <a href="/about.html" class="">About</a>
+      <a href="/services.html" class="">Services</a>
+      <a href="/sectors.html" class="">Sectors</a>
+      <a href="/projects.html" class="">Projects</a>
+      <a href="/contact.html" class="btn btn-primary">Contact Us</a>
+    </nav>
+    <button class="burger" aria-label="Open menu">&#9776;</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="kicker" style="color:var(--sky)">Contact</span>
+    <h1 class="h-xl">Let&rsquo;s Build Something Bankable</h1>
+    <p class="lead" style="margin-top:18px">Whether you're a government, developer, or investor, BIA helps structure
+    projects and unlock capital. Reach out to start the conversation.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap contact-grid" style="margin-top:0">
+    <div class="reveal">
+      <span class="kicker">Get in Touch</span>
+      <h2 class="h-lg" style="margin-bottom:30px">We Typically Respond Within 24&ndash;48 Hours</h2>
+      <div class="info-item"><div class="ico">&#9993;</div><div><b>Email</b><span><a href="mailto:info@bia-advisory.com">info@bia-advisory.com</a></span></div></div>
+      <div class="info-item"><div class="ico">&#128222;</div><div><b>Phone</b><span><a href="tel:+254700000000">+254 700 000000</a></span></div></div>
+      <div class="info-item"><div class="ico">&#128205;</div><div><b>Location</b><span>Nairobi, Kenya</span></div></div>
+      <div class="info-item"><div class="ico">&#127760;</div><div><b>Markets</b><span>Emerging markets across Africa &amp; beyond</span></div></div>
+    </div>
+    <div class="form-card reveal">
+      <form name="contact" method="POST" action="/send-mail.php">
+        <p class="hp"><label>Don&rsquo;t fill this out: <input name="bot-field"></label></p>
+        <div class="form-row">
+          <div class="field"><label for="name">Full Name</label><input id="name" type="text" name="name" required></div>
+          <div class="field"><label for="email">Email Address</label><input id="email" type="email" name="email" required></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label for="organisation">Organisation</label><input id="organisation" type="text" name="organisation"></div>
+          <div class="field"><label for="sector">Sector</label>
+            <select id="sector" name="sector">
+              <option>Renewable Energy &amp; Oil &amp; Gas</option>
+              <option>Agriculture &amp; Carbon Markets</option>
+              <option>Hospitality</option>
+              <option>Healthcare</option>
+              <option>Infrastructure / Other</option>
+            </select></div>
+        </div>
+        <div class="field"><label for="message">Project Details</label><textarea id="message" name="message" rows="6" required></textarea></div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Submit Inquiry &rarr;</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <img src="/assets/img/bia-logo.png" alt="BIA logo" style="filter:brightness(0) invert(1)">
+        <p>Business Investment Advisory (BIA) — bridging projects and capital across emerging markets through structured, strategic, and scalable financial solutions.</p>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <a href="/">Home</a>
+        <a href="/about.html">About &amp; Leadership</a>
+        <a href="/services.html">Services</a>
+        <a href="/sectors.html">Sectors</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Expertise</h4>
+        <a href="/services.html">Project Structuring</a>
+        <a href="/services.html">Credit Enhancement</a>
+        <a href="/services.html">Capital Mobilization</a>
+        <a href="/services.html">Financial Advisory</a>
+        <a href="/sectors.html">Bankable Feasibility Studies</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="mailto:info@bia-advisory.com">info@bia-advisory.com</a>
+        <a href="tel:+254700000000">+254 700 000000</a>
+        <p style="margin-top:10px">Nairobi, Kenya</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 BIA Limited. All rights reserved.</span>
+      <span>Transforming vision into sustainable infrastructure &amp; strategic partnerships.</span>
+    </div>
+  </div>
+</footer>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

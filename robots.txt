@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bia.co.ke/sitemap.xml
