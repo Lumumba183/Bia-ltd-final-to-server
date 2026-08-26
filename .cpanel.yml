@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/biaco/public_html/
+    - /bin/sh -c "/bin/rsync -a --delete --exclude=.git --exclude=.cpanel.yml ./ $DEPLOYPATH"
