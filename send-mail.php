@@ -6,7 +6,7 @@
  */
 
 // ---- Configuration ---------------------------------------------------------
-$to      = 'info@bia-advisory.com';            // mailbox that receives enquiries
+$to      = 'info@bia.co.ke';            // mailbox that receives enquiries
 $subject = 'New Website Inquiry — bia.co.ke';
 $from    = 'no-reply@bia.co.ke';               // must be a domain on this hosting account
 // ----------------------------------------------------------------------------

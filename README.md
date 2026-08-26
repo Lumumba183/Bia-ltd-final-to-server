@@ -32,7 +32,7 @@ is required.
 
 The form posts to `send-mail.php`, which delivers enquiries to:
 
-    info@bia-advisory.com
+    info@bia.co.ke
 
 To change the recipient, edit line 10 (`$to`) in `send-mail.php`.
 For best deliverability, create a mailbox `no-reply@bia.co.ke` in cPanel
@@ -50,5 +50,5 @@ For best deliverability, create a mailbox `no-reply@bia.co.ke` in cPanel
 - All navigation links open their pages (no 404s)
 - https://bia.co.ke/about.html shows the leadership team and associates
 - Submitting the contact form lands on the success page and the enquiry
-  arrives in the `info@bia-advisory.com` mailbox
+  arrives in the `info@bia.co.ke` mailbox
 - A deliberately wrong URL (e.g. https://bia.co.ke/nope) shows the custom 404
